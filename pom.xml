@@ -24,7 +24,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>github-api</artifactId>
-      <version>1.75</version>
+      <version>1.75-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp</groupId>
@@ -38,6 +38,10 @@
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+    <repository>
+      <id>my-maven-repo</id>
+      <url>file:///D:/scratch/my-maven-repo/</url>
     </repository>
   </repositories>
 
